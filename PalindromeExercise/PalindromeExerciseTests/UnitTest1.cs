@@ -17,10 +17,6 @@ namespace PalindromeExerciseTests
         public void PTest(string word, bool expected)
         {
 
-            //Arrange 
-
-            var tester = new WordSmith();
-
             //Act 
             var actual = WordSmith.IsAPalindrome(word);
 
