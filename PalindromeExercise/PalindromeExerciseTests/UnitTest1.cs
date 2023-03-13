@@ -16,9 +16,10 @@ namespace PalindromeExerciseTests
         [InlineData("usain", false)]
         public void PTest(string word, bool expected)
         {
+            var tester = new WordSmith();
 
             //Act 
-            var actual = WordSmith.IsAPalindrome(word);
+            var actual = tester.IsAPalindrome(word);
 
             //Assert
             Assert.Equal(expected, actual);

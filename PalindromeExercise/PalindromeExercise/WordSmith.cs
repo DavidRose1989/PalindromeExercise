@@ -9,7 +9,7 @@ namespace PalindromeExercise
     public class WordSmith
     {
 
-        public static bool IsAPalindrome(string word)
+        public bool IsAPalindrome(string word)
         {
 
             string wordReverse = "";
